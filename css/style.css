@@ -1,0 +1,36 @@
+h4,p{
+	margin-left: 200px;
+}
+table{
+	float: left;
+	margin: 10px 10px 10px 20px;
+	width: 31%;
+	border-collapse: collapse;
+	text-align: center;
+}
+table tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee	;
+}
+table th{
+    background-color: #2d5986;
+    color: white;
+}
+.main{
+	border-radius: 5px;
+	background-color: #f0f5f5;
+	padding: 40px;
+}
+.button{
+	margin: 20px 70px;
+	width: 150px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 3px;
+	border:none;
+	color: white;
+}
+

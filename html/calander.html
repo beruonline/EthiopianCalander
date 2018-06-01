@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ethiopian calender</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="../js/script.js"></script>
+</head>
+	<body>
+		<h4>የኢትዮጵያ የቀን መቁጠሪያ</h4>
+		<div class="main">
+			<form action="#">
+			ወር
+			<select id="month">
+				<option value="0">መስከረም</option>
+				<option value="1">ጥቅምት</option>
+				<option value="2">ህዳር</option>
+				<option value="3">ታህሳስ</option>
+				<option value="4">ጥር</option>
+				<option value="5">የካቲት</option>
+				<option value="6">መጋቢት</option>
+				<option value="7">ሚያዝያ</option>
+				<option value="8">ግንቦት</option>
+				<option value="9">ሰኔ</option>
+				<option value="10">ሃምሌ</option>
+				<option value="11">ነሃሴ</option>
+				<option value="12">ፓጉሜ</option>
+			</select>
+			አመት
+			<input type="number" value="2010" id="year">
+	  		<input class="button" type="submit" value="የወር የቀን መቁጠሪያ" onclick="displayMonthCalendar()">			
+	  		<input class="button" type="submit" value="የአመት የቀን መቁጠሪያ" onclick="displayYearCalendar()">
+			</form>
+		</div>
+	</body>
+		<div id="calendar">            
+        </div></br>
+        <p id="hyd"></p>
+<!--comment-->
+</html>
